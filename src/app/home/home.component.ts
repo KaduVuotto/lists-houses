@@ -23,13 +23,13 @@ import { HousingLocation } from '../housinglocation';
   styleUrl: './home.component.css',
 })
 export class HomeComponent {
-  readonly baseUrl = 'https://angular.dev/assets/tutorials/common';
+  readonly baseUrl = 'https://images.pexels.com/photos';
   housingLocation: HousingLocation = {
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
     state: 'ST',
-    photo: `${this.baseUrl}/example-house.jpg`,
+    photo: `${this.baseUrl}/186077/pexels-photo-186077.jpeg?cs=srgb&dl=pexels-binyaminmellish-186077.jpg&fm=jpg`,
     availableUnits: 99,
     wifi: true,
     laundry: false,
